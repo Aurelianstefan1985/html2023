@@ -1,0 +1,22 @@
+
+p{
+    color: green;
+}
+#p1,#p2{
+    color: red;
+}
+.pblue{
+    color: blue;
+}
+.pfont{
+    font-size: 35px;
+}
+/*  */
+
+div p{
+    color: chocolate;
+}
+#iddiv #pdiv{
+    color: aquamarine;
+}
+/*  daca se trec id-urile cu # fara virgula se ia elementul secundar din cel principal */

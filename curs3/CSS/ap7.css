@@ -1,0 +1,13 @@
+div{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 25px;
+    border: 5px hwb(0 0% 100% / 0.547) solid;
+    padding: 10px 20px 15px 5px;
+    /* prima valoare e sus/jos iar a doua stanga dreapta. iar daca sunt toate 4 diferite, se iau in ordinea acelor de ceasornic */
+    float: left;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:  navy;
+}
