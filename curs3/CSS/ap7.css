@@ -7,7 +7,10 @@ div{
     padding: 10px 20px 15px 5px;
     /* prima valoare e sus/jos iar a doua stanga dreapta. iar daca sunt toate 4 diferite, se iau in ordinea acelor de ceasornic */
     float: left;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    text-align: justify;
+   
     color:  navy;
+}
+div :hover{
+    color: red;
 }

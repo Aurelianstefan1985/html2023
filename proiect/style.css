@@ -29,7 +29,7 @@ padding: 0px 10px;
   }
   .col-4 img{
     width: 100%;
-    max-height: 145 px;
+    height: 145px;
   }
   img{ 
     border: 0;
@@ -128,7 +128,7 @@ padding: 0px 10px;
   /* HEADER */
   #header
   { 
-    background-image: url(../Image/header.png);
+    background-image: url(./assets/images/header.png);
     background-size: cover;
     border-bottom: 1px solid #3d3d3d;
     height: 250px;
@@ -225,7 +225,7 @@ padding: 0px 10px;
   /* BANNER */
   #banner{  
     /* background: transparent url(../images/banner.png) no-repeat; */
-    background-image: url(../Image/banner.png);
+    background-image: url(./assets/images/banner.png);
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: contain;
@@ -265,7 +265,7 @@ padding: 0px 10px;
   
   #content ul li, .sidebar ul li
   { list-style-type: none;
-    background: url(../Image/bullet.png) no-repeat;
+    background: url(./assets/images/bullet.png) no-repeat;
     margin: 0 0 0 0; 
     padding: 0 0 4px 25px;
     line-height: 1.5em;}
