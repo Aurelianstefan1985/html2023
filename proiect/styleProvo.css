@@ -59,7 +59,7 @@ p {
 }
 
 button {
-		cursor: pointer;
+		cursor: crosshair;
 		background: var(--lightGray);
 		font-family: var(--lexendDeca);
 		font-weight: 400;
@@ -95,7 +95,7 @@ button:active {
 }
 .suv button:hover {
 		background: var(--lightCyan);
-		color: var(--lightGray);
+		color: lightblue;
 }
 
 .luxury {
