@@ -1,0 +1,34 @@
+div img{
+    width:100%;
+    max-width:600px;
+    height: 600px;
+}
+@media (max-width:577px) {
+        .mobil{
+            background-image: url("../images/Mobil.png");
+            background-size: cover;}
+        .laptop, .tableta {
+            display: none;
+}
+
+}
+@media (min-width:578px) and (max-width:768px){
+
+.tableta{
+    background-image: url("../images/tableta.jpeg");
+    background-size: cover;
+}
+.laptop, .mobil {
+    display: none;
+}
+}
+@media (min-width:769px) {
+    .laptop{
+        background-image: url("../images/Laptop.jpeg");
+        background-size: cover;
+    }
+    .tableta, .mobil {
+        display: none;
+    }
+/* laptop */
+}

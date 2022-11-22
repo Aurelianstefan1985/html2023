@@ -1,0 +1,26 @@
+div{
+    width: 300px;
+    height: 300px;
+    border: 1px red solid;
+    float:left ;
+    margin: 59px;
+    overflow: hidden;
+    border-radius: 15px;
+    outline-style: double;
+    outline-color: red;
+    outline-width: 14px;
+    outline-offset: 23px;
+    border-color:red blue yellow green;
+    border-width: 4px;
+}
+#div2{
+    /* display: none; */
+    /* display:none nu mai afiseaza continutul si face si spatiul sa dispara; */
+    /* visibility: hidden; */
+    /* visibility:hidden nu mai afiseaza continutul dar pastreaza spatiul liber */
+}
+.body {
+    @media screen {
+        
+    }
+}
