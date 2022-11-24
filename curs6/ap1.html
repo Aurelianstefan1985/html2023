@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+  </head>
+  <body>
+    <h1>Primul formular</h1>
+    <input action="" method="post">
+        <!-- atributul Action arata locatia unde se prelucreaza datele -->
+      <label for="nume">Nume</label><br>
+      <!-- input: submit creaza un buton cu denumirea de la "Value" -->
+      <input type="text" name="nume" id="nume" placeholder="Nume" value="DUmitra" required readonly/><br>
+      <!-- required se foloseste pentru a ne asigura ca se completeaza formularul complet -->
+      <!-- value la nume se foloseste pentru a aparea iar readonly sa nu poata fi modificat -->
+      <label for="prenume">Prenume</label><br>
+      <input type="text" name="prenume" id="prenume" placeholder="Prenume" required><br>
+      <!-- <label for="adresa">Adresa</label><br>
+      <input type="text" name="adresa" id="adresa" placeholder="Adresa" required> <br> -->
+      <label for="email">Adresa de e-mail</label><br>
+      <!-- label for se trece valoarea id-ului de la imput -->
+      <input type="email" name="emailaddress" id="email"><br>
+      <label for="pass">Parola</label><br>
+      <input type="password" name="parola" id="pass"><br>
+      <label for="gen">Gen</label>
+      <input type="radio" name="gen" id="" value="m"> M </input>
+      <input type="radio" name="gen" id="" value="m"> F</input>
+      <input type="radio" name="gen" id="" value="m">NaN</input><br>
+      <br>
+      <label for="curs">Perioada curs</label><br>
+      <input type="radio" name="curs" id="" value="dimineata">Dimineata
+      <input type="radio" name="curs" id="" value="pranz" disabled>Pranz
+      <input type="radio" name="curs" id="" value="seara">Seara <br>
+      <label for="limbaje">Limbaje de programare</label><br>
+      <input type="checkbox" name="php" value="php">PHP <br>
+      <input type="checkbox" name="html" value="html">HTML <br>
+      <input type="checkbox" name="js" value="js">JS <br>
+      <input type="checkbox" name="css" value="css">CSS <br>
+      <input type="checkbox" name="python" value="python">PYTHON <br>
+
+      <input type="submit" value="Trimite datele" />
+      <input type="reset" value="Sterge datele">
+      <label for="telefon">Telefon</label>
+      <input type="tel" name="telefon" id="telefon">
+    </form>
+  </body>
+</html>
