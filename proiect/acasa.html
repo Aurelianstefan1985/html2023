@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="ro">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- pentru a ne proteja datele de pe site este recomandat ca in fiecare fisier sa fie facut un fisier de tip index.html
+    Acesta este prima data accesat de catre browser -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>HTML CSS Proiect 2022 - 2023</title>
     <meta name="description" content="Proiect demo de la cursul de HTML CSS " />
     <meta name="keywords" content="website, site, CSS, HTML, proeict" />
-    <meta name="author" content="LinkAcademy">
+    <meta name="author" content="LinkAcademy" />
     <!-- Favicon-->
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
-    <link rel='icon' type='image/x-icon' href='./assets/images/favicon.ico'/>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon-16x16.png"
+    />
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
     <!-- CSS  -->
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
 
@@ -24,7 +39,9 @@
     <div id="header">
       <div id="logo">
         <div id="logo_text">
-          <h1><a href="acasa.html">Coffe<span class="logo_colour">Shop</span></a></h1>
+          <h1>
+            <a href="acasa.html">Coffe<span class="logo_colour">Shop</span></a>
+          </h1>
           <h2>Primul meu proeict.</h2>
         </div>
       </div>
@@ -34,7 +51,7 @@
           <li><a href="desprenoi.html">Despre noi</a></li>
           <li><a href="portofoliu.html">Portofoliu</a></li>
           <li><a href="blog.html">Blog</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -42,26 +59,57 @@
       <div id="content_header"></div>
       <div id="site_content">
         <div id="banner">
-          <div class="banner"><img src="./assets/images/Logo.jpg" alt=""</div>
-        </div>
-        <div id="content">
-          <h1>Black Friday</h1>
-          <div class="row">
-            <div class="col-4"><img src="../proiect/assets/images/fall-ge994a08bf_1920.jpg" alt=""></div>
-            <div class="col-4"><img src="../proiect/assets/images/road-g3a7371afa_1920 copy.jpg" alt=""></div>
-            <div class="col-4"><img src="../proiect/assets/images/fall-ge994a08bf_1920.jpg" alt=""></div>
+          <div class="banner">
+            <img src="./assets/images/Logo.jpg" alt="" />
           </div>
-          <div class="row">
-            <div class="col-4"><img src="../proiect/assets/images/fall-ge994a08bf_1920.jpg" alt=""></div>
-            <div class="col-4"><img src="../proiect/assets/images/road-g3a7371afa_1920 copy.jpg" alt=""></div>
-            <div class="col-4"><img src="../proiect/assets/images/fall-ge994a08bf_1920.jpg" alt=""></div>
+          <div id="content">
+            <h1>Black Friday</h1>
+            <div class="row">
+              <div class="col-4">
+                <img
+                  src="../proiect/assets/images/fall-ge994a08bf_1920.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  src="../proiect/assets/images/road-g3a7371afa_1920 copy.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  src="../proiect/assets/images/fall-ge994a08bf_1920.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4">
+                <img
+                  src="../proiect/assets/images/fall-ge994a08bf_1920.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  src="../proiect/assets/images/road-g3a7371afa_1920 copy.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  src="../proiect/assets/images/fall-ge994a08bf_1920.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
           </div>
-        </div>
-        <div id="sidebar_container">
-          <div>
+          <div id="sidebar_container">
+            <div>
               <h3>Tipuri de bijuterii</h3>
-          </div>
-          <div class="sidebar">
+            </div>
+            <div class="sidebar">
               <h3>Link-uri</h3>
               <ul>
                 <li><a href="#">link 1</a></li>
@@ -69,17 +117,18 @@
                 <li><a href="#">link 3</a></li>
                 <li><a href="#">link 4</a></li>
               </ul>
-          </div>
-          <button class="cauta">Cauta
-          </button>
-                  
+            </div>
+            <button class="cauta">Cauta</button>
           </div>
         </div>
       </div>
     </div>
     <div id="footer">
       <p><a href="acasa.html">Home</a> | <a href="contact.html">Contact</a></p>
-      <p>Copyright &copy; Nume Prenume | <a href="">HTML5</a> | <a href="">CSS</a> </p>
+      <p>
+        Copyright &copy; Nume Prenume | <a href="">HTML5</a> |
+        <a href="">CSS</a>
+      </p>
     </div>
   </body>
 </html>
