@@ -1,34 +1,40 @@
+div{
+    width: 100%;
+    max-width: 600px;
+    height: 600px;
+}
 div img{
     width:100%;
     max-width:600px;
-    height: 600px;
 }
-@media (max-width:577px) {
-        .mobil{
-            background-image: url("../images/Mobil.png");
-            background-size: cover;}
-        .laptop, .tableta {
-            display: none;
-}
-
-}
-@media (min-width:578px) and (max-width:768px){
-
-.tableta{
-    background-image: url("../images/tableta.jpeg");
-    background-size: cover;
-}
-.laptop, .mobil {
-    display: none;
-}
-}
-@media (min-width:769px) {
-    .laptop{
-        background-image: url("../images/Laptop.jpeg");
-        background-size: cover;
-    }
-    .tableta, .mobil {
+@media  (max-width:576px) {
+    .laptop, .tableta{
         display: none;
     }
-/* laptop */
+    .mobil{
+        background-image: url(../images/Mobil.png);
+        background-size: cover;
+    }
 }
+@media (min-width: 577px) and (max-width:768px){
+    .laptop, .mobil{
+        display: none;
+    }
+    .tableta{
+        background-image: url(../images/tableta.jpeg);
+        background-size: cover;
+    }
+}
+@media (min-width:769px) {
+    .mobil, .tableta{
+        display: none;
+    }
+    .laptop{
+        background-image: url(../images/Laptop.jpeg);
+        background-size: cover;
+       
+    }
+    #h1{
+        flex-direction: row-reverse;
+    }
+    }
