@@ -456,7 +456,7 @@ h1 {
 }
 
 p {
-		color: var(--transWhite);
+		color: black;
 		font-size: 0.9375em; 
 		margin-bottom: var(--paraMargin);
 		font-family: var(--lexendDeca);
