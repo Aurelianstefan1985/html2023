@@ -1,0 +1,43 @@
+#firstDiv {
+    background-color: #fff2fa;
+}
+#firstDiv img {
+  max-width: 100%;
+  height: 250px;
+  margin: auto;
+  display: block;
+  object-fit: contain;
+  padding-bottom: 40px;
+}
+#menunav{ 
+    width: 1000px;
+    height: 45px;
+    padding-right: 8px;
+    background:plum;
+    border-top: 1px solid #3D3D3D;
+  } 
+  ul#menu
+  { float: right;
+    margin: 0;}
+  
+  ul#menu li
+  { float: left;
+    padding: 0 0 0 9px;
+    list-style: none;
+    margin: 8px 4px 0 4px;
+    text-align: center;
+}
+ul#menu li a
+  { 
+    /* font-family: Arial, Helvetica, sans-serif; */
+   font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    display: block; 
+    float: left; 
+    height: 31px;
+    padding: 6px 20px 5px 20px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    width: 25%;
+    background: #5E4238;} 
