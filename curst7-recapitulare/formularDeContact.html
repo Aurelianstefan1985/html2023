@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(
+          90deg,
+          rgba(2, 0, 36, 1) 0%,
+          rgba(116, 121, 9, 1) 35%,
+          rgba(0, 212, 255, 1) 100%
+        );
+      }
+      body > div {
+        border: 2px solid yellow;
+        width: 320px;
+        margin-top: 20px;
+        padding: 20px;
+        background-color: white;
+        display: block;
+        float: none;
+      }
+      body > div > div {
+        margin: 0px;
+        padding: 6px;
+      }
+      h3 {
+        font-size: 12px;
+        padding: 0px;
+        margin: 5px;
+      }
+      h1 {
+        margin: 0px 10px;
+      }
+      .center {
+        margin: auto;
+        width: 18%;
+        border: 3px solid #73ad21;
+        padding: 10px;
+      }
+      .submit{
+        margin: auto;
+        border: 2px solid black;
+        padding: 12px;
+        border-radius: 25px;
+        display: block;
+        background-color: #73ad21;
+      }
+      .submit:hover{
+        background-color: red;
+      }
+      h4{
+        font-size: 9px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <h1 class="h1">Formularul de contact</h1>
+      <h3>Va rugam sa ne contactati pentru mai multe opriuni</h3>
+      <form action=""></form>
+      <div>
+        <label class="name" for="nume"></label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Nume si prenume" required
+        /><br />
+      </div>
+
+      <div>
+        <label class="email" for="email"></label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Your email address" required
+        /><br />
+      </div>
+      <div>
+        <label class="phone" for="tel"></label>
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="Telefon (optional)"
+          required  
+        />
+      </div>
+      <div>
+        <label class="website" for="web"></label>
+        <input
+          type="url"
+          name="website"
+          id="website"
+          placeholder="Website (optional)" required 
+        />
+      </div>
+      <div>
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Mesajul dumneavoastra"
+        ></textarea>
+      </div>
+
+      <div>
+        <input class="submit" type="submit" value="Trimite datele" />
+        <h4><i>Campurile marcate cu (*) sunt obligatorii</i></h4>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      td {
+        padding: 10px;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tabel</h1>
+    <table>
+      <tr>
+        <td>Header</td>
+        <td>Header</td>
+        <td>Header</td>
+        <td>Header</td>
+      </tr>
+      <tr>
+        <td rowspan="6">Rowspan de 6</td>
+        <!-- rowspan inseamna merge-ul din excel. Rowspan 6 inseamna 
+            ca a facut merge la 6 randuri -->
+        <!-- dupa ce s-a scris rowspan/colspan se sterg randurile ce urmeaza
+            sau coloanele -->
+        <td colspan="3">Col span de 3</td>
+      </tr>
+      <tr>
+        <td colspan="2">Colspand e 2</td>
+
+        <td rowspan="4">Rowspan de 4</td>
+      </tr>
+      <tr>
+        <td rowspan="3">Rowspan de 3</td>
+        <td>Celula simpla</td>
+      </tr>
+      <tr>
+        <td>Celula simpla</td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="3">Total</td>
+
+        <td>100</td>
+      </tr>
+    </table>
+  </body>
+</html>
